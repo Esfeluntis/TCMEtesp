@@ -1,0 +1,446 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #E5FCC2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#navegacao{
+	background:#FFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 10;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+    z-index: 10;
+
+}
+
+#aqui{
+    padding:0;
+    margin-left:4px;
+    margin-right:0.5px;
+}
+
+#cadastro{
+    position:relative;
+    top:118px;
+    width:439px;
+    margin:0 auto;
+    left: 11px;
+}
+
+#area-index{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+    padding: 15px;
+}
+
+#area2{
+	width: 1000px;
+	margin: 0 auto;
+    z-index: 10;
+
+}
+
+#menu{
+	float:right;
+	padding: 10px 0;
+    z-index:10;
+
+}
+
+
+#logo{
+	float:left;
+	padding-top: 2px;
+    z-index:10;
+}
+
+#Sobre{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
+
+#s1{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
+
+#imgs1{
+    width:300px;
+    float:right;
+    margin-right:10px;
+}
+
+#textos1{
+    width: 350px;
+    margin-top: 40px;
+    float:left;
+    margin-left:15px;
+}
+
+#s2{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
+
+#imgs2{
+    float:left;
+    margin-left:10px;
+    width:300px;
+}
+
+textos2{
+    width: 150px;
+    margin-right:15px;
+    float:right;
+}
+
+#s3{
+
+}
+
+#s4{
+
+}
+
+#s5{
+
+}
+
+#textoServicos{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
+
+#MMV{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+ul li{
+    margin-left:50px;
+}
+
+#area-principal{
+	width: 720px;
+	margin: 55px auto 60px auto;
+    background: #FFF ;
+
+}
+
+#TituloIndex{
+    width:570px;
+    margin:100px auto 0 auto;
+}
+
+#textoinicial{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align:justify;
+    margin:10px 60px 0 30px;
+}
+
+footer{
+	background:#FFF;
+	border-top: 1px solid #d8d8d8;
+	height: 35px;
+	position:fixed;
+    bottom: 0;
+	width: 100%;
+    z-index: 10;
+    text-align:center;
+    color:#838383;
+    padding-top:10px;
+}
+
+#txtSenha{
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.btnlogin{
+    margin-left:90px;
+    margin-top:3px;
+    width:40px;
+}
+
+#formcad1{
+    margin: 0 auto;
+    width:210px;
+}
+
+#formcad2{
+    margin: 0 auto;
+    width:210px;
+}
+
+#login{
+    width:190px;
+    position:relative;
+    top:100px;
+    left: 220px;
+    z-index:10;
+}
+
+#bglogin{
+    margin: 150px auto 0px auto;
+    width: 589px;
+    height:330px;
+    background-image:url(../img/LogoLogin.jpg);
+    z-index:10;
+}
+
+#direitosreservados{
+}
+/*Formata??o do Menu*/
+
+#menu a{
+	padding: 5px 10px;
+}
+
+#menu a:link{
+	color: #838383;
+	text-decoration: none;
+}
+
+#menu a:visited{
+	color: #838383;
+	text-decoration: none;
+}
+#menu a:hover{
+	background-color: #9DE0AD;
+	color:#FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+#menu a:active{
+	color:#535353;
+}
+
+a:link{
+    color:#9DE0AD;
+    text-decoration:none;
+}
+a:visited{
+    color:#9DE0AD;
+    text-decoration:none;
+}
+a:hover{
+    color:#9DE0AD;
+    text-decoration:none;
+}
+a:active{
+    color:#9DE0AD;
+    text-decoration:none;
+}
+
+
+
+/*  */
+
+.galeria{
+    margin:50px auto 0 auto;
+    width:720px;
+    height:480px;
+    overflow:hidden;
+    z-index: 4;
+    position:absolute;
+
+
+}
+
+.imgslide{
+    opacity:0;
+    animation-name:animacao;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    width:720px;
+    position:absolute;
+    height: 480px;
+    z-index: 4;
+}
+
+@keyframes animacao{
+
+
+    25%{
+        opacity:1;
+        transform:scale(1.1,1.1);
+
+    }
+    50%{
+        opacity:0;
+    }
+}
+
+.imgslide:nth-child(1){
+}
+.imgslide:nth-child(2){
+animation-delay:5s;
+}
+.imgslide:nth-child(3){
+    animation-delay:10s;
+
+}
+.imgslide:nth-child(4){
+    animation-delay:15s;
+
+}
+
+p{
+    margin-top:10px;
+}
+
+#textocadastro{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    padding:20px;
+    text-align: justify;
+}
+
+#imgcadastro{
+    width:100%;
+}
+
+
+#textocadastro p{
+    text-align:justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+#textocadastro li{
+    margin-left:20px;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#formcadastro{
+    width: 280px;
+    float:right;
+    text-align:left;
+    margin-left:15px;
+}
+
+#txtUser{
+    border:none;
+}
+
+#txtSenha{
+    border: none;
+}
+
+#lblUser{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#lblSenha{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.textbox{
+    display:inline;
+    display:block;
+    text-align:left;
+    width: 200px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-left:5px;
+}
+.textbox2{
+    display:inline;
+    display:block;
+    text-align:left;
+    width: 300px;
+    height:200px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+    padding-left:5px;
+}
+.textbox3{
+    display:inline;
+    display:block;
+    text-align:left;
+    width: 150px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-left:5px;
+}
+
+#clear{
+    clear:both;
+}
+
+#titulocad{
+    font-size: 30px;
+    width: 120px;
+    margin: 0 auto;
+
+}
+
+#titulocadmed{
+    font-size: 30px;
+    width: 333px;
+    margin: 0 auto;
+
+}
+#titulocadben{
+    font-size: 30px;
+    width:400px;
+    margin: 0 auto;
+
+}
+
+#textocad1{
+    padding: 10px 100px 0px;
+    text-align:justify;
+    margin-bottom:30px;
+}
+
+img#imgcad1{
+    margin: 40px auto 0 auto;
+    width:100%;
+    margin-bottom:50px;
+}
+
+.btnCad{
+    width:60px;
+    margin-left:140px;
+}
