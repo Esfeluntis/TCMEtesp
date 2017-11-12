@@ -7,15 +7,15 @@ namespace ASPVidaDiabetica
 {
     public class Share
     {
-        public string nome;
-        public string rg;
-        public string cpf;
-        public string endereco;
-        public string tel;
-        public string email;
-        public string datanasc;
-        public string cel;
-        public string func;
+        static string nome;
+        static string rg;
+        static string cpf;
+        static string endereco;
+        static string tel;
+        static string email;
+        static string datanasc;
+        static string cel;
+        static string func;
 
         public void setNome (string val)
         {

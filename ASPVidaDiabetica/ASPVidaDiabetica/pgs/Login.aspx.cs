@@ -31,7 +31,7 @@ namespace ASPVidaDiabetica
         {
             con = new ClasseConexao();
             dt = new DataTable();
-            dt = con.executa_sql("select * from tblAcesso where usuario='" + txtUser.Text + "' and senha='" + txtSenha.Text + "'");
+            dt = con.executarSQL("select * from tblAcesso where usuario='" + txtUser.Text + "' and senha='" + txtSenha.Text + "'");
 
             if (dt.Rows.Count > 0)
             {

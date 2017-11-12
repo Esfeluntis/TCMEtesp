@@ -10,7 +10,7 @@ namespace ASPVidaDiabetica.pgs
     public partial class Cadastro : System.Web.UI.Page
     {
         Share sh = new Share();
-        private void SetAll()
+        public void SetAll()
         {
             sh.setNome(txtNome.Text);
             sh.setRG(txtRG.Text);
