@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterBeneficiado.master.cs" Inherits="ASPVidaDiabetica.MasterBeneficiado" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ONG Vida Diabética</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo4.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function temcerteza() {
+            var resposta = confirm("Para acessar esta página, você será deslogado, prosseguir?");
+            if (resposta) {
+                window.location = "index.aspx";
+            }
+            else {
+                return false;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        	<div id="navegacao">
+		<div id="area2">
+        <a href="index.aspx" onclick="return temcerteza()"><img id="logo" src="../img/NomeONG.jpg" height="40px" /></a>
+	<div id="menu">
+		<a href="index.aspx" onclick="return temcerteza()">Home </a>
+		<a href="eventos.aspx">Eventos </a>
+		<a href="registroglicemia.aspx">Registrar Glicemia </a>
+		<a href="tabelaglicemica.aspx">Tabela Glicêmica </a>
+        <a href="index.aspx">Logoff </a>
+	</div>
+</div>
+	</div>
+</div>
+
+        <div id="area-principal">
+        <asp:ContentPlaceHolder  ID="conteudoprincipal" runat="server">
+
+
+
+
+        </asp:ContentPlaceHolder>
+            </div>
+
+    
+    </form>
+
+    <footer>
+        <span id="direitosreservados">
+        Todos os direitos reservados à ONG Vida Diabética
+            </span>
+    </footer>
+        <asp:ContentPlaceHolder ID="estalogado" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>
+

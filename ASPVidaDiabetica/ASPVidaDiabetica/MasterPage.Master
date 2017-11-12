@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ASPVidaDiabetica.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ONG Vida Diabética</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo4.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        	<div id="navegacao">
+		<div id="area">
+        <a href="index.aspx"><img id="logo" src="../img/NomeONG.jpg" height="40px" /></a>
+	<div id="menu">
+		<a href="index.aspx">Home </a>
+		<a href="sobre.aspx">Sobre </a>
+		<a href="servicos.aspx">Serviços </a>
+		<a href="contato.aspx">Contato </a>
+        <a href="login.aspx">Login </a>
+	</div>
+</div>
+	</div>
+</div>
+
+        <div id="area-principal">
+        <asp:ContentPlaceHolder  ID="conteudoprincipal" runat="server">
+
+
+
+
+        </asp:ContentPlaceHolder>
+            </div>
+
+    
+    </form>
+
+    <footer>
+        <span id="direitosreservados">
+        Todos os direitos reservados à ONG Vida Diabética
+            </span>
+    </footer>
+    <asp:ContentPlaceHolder ID="estalogado" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>

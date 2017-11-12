@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #E5FCC2;
+
+}
+
+#navegacao{
+	background:#FFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 9999;
+    opacity:0;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+    z-index: 9999;
+    opacity:0;
+    position: relative;
+
+}
+
+#menu{
+	float:right;
+	padding: 10px 0;
+    position: relative;
+    z-index:9999;
+    opacity:0;
+}
+
+
+#logo{
+	float:left;
+	padding-top: 2px;
+    z-index:9999;
+    opacity:0;
+    position: relative;
+}
+
+
+#area-prin{
+	width: 720px;
+	margin: 55px auto 10px auto;
+    background: #F7E4BE ;
+    position:absolute;
+    z-index:1;
+
+
+}
+
+
+
+/*Formata??o do Menu*/
+
+a{
+	padding: 5px 10px;
+}
+
+a:link{
+	color: #838383;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #838383;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #9DE0AD;
+	color:#FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+a:active{
+	color:#535353;
+}
+
+h2{
+	color:#b9c941;
+}
+
+
+
+/*  */
+
+.galeria{
+    margin:0 auto;
+    width:720px;
+    height:480px;
+    position:absolute;
+    overflow:hidden;
+    z-index: -1;
+
+}
+
+.imgslide{
+    position:absolute;
+    opacity:0;
+    animation-name:animacao;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    width:720px;
+    height: 480px;
+    z-index: -1;
+}
+
+@keyframes animacao{
+
+
+    25%{
+        opacity:1;
+        transform:scale(1.1,1.1);
+        z-index: -1;
+
+    }
+    50%{
+        z-index: -1;
+        opacity:0;
+    }
+}
+
+.imgslide:nth-child(1){
+    z-index: -1;
+}
+.imgslide:nth-child(2){
+animation-delay:5s;
+z-index: -1;
+}
+.imgslide:nth-child(3){
+    animation-delay:10s;
+    z-index: -1;
+
+}
+.imgslide:nth-child(4){
+    z-index: -1;
+    animation-delay:15s;
+
+}
+
