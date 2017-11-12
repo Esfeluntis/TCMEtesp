@@ -15,7 +15,7 @@
 
 
         </div>
-    <div id="formcad2">
+    <div id="formcad1">
 Tipo da Diabetes: <asp:RadioButtonList ID="rblTipoDiabetes" runat="server">
             <asp:ListItem>1</asp:ListItem>
             <asp:ListItem>2</asp:ListItem>
@@ -29,7 +29,7 @@ Nome do endocrinologista
         <br />
         responsável: <asp:TextBox ID="txtEndo" runat="server" SkinID="txtboxbonita" CssClass="textbox"></asp:TextBox>
         <br />
-                <asp:Button ID="btnFinalBen" runat="server" Width="60px" Text="Finalizar" CssClass="btnCad" />
+                <asp:Button ID="btnFinalBen" runat="server" Width="60px" Text="Finalizar" CssClass="btnCad" OnClick="btnFinalBen_Click" />
 </div>
         <br /><br />
         </div>

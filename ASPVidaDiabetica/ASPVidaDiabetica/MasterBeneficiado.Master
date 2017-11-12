@@ -18,6 +18,15 @@
                 return false;
             }
         }
+        function deslogar() {
+            var resposta = confirm("Fazer Logoff?");
+            if (resposta) {
+                window.location = "index.aspx";
+            }
+            else {
+                return false;
+            }
+        }
 
     </script>
 </head>
@@ -32,7 +41,7 @@
 		<a href="eventos.aspx">Eventos </a>
 		<a href="registroglicemia.aspx">Registrar Glicemia </a>
 		<a href="tabelaglicemica.aspx">Tabela Glicêmica </a>
-        <a href="index.aspx">Logoff </a>
+        <a href="index.aspx" onclick="return deslogar()">Logoff </a>
 	</div>
 </div>
 	</div>

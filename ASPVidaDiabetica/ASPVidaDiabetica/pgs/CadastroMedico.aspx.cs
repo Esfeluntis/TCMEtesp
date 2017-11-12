@@ -23,11 +23,15 @@ namespace ASPVidaDiabetica.pgs
         {
             dt = new DataTable();
             con = new ClasseConexao();
-            dt = con.executa_sql("insert");
-            Session["logon"] = "1";
-            Session["nome_logon"] = sh.getNome();
-            Session["idBen"] = null; //pegar id;
-            Response.Redirect("Logado.aspx");
+            dt = con.executarSQL("insert into tblGeral values('" + sh.getNome() + "', '" + sh.getRG() + "', '" + sh.getCPF() + "','" + sh.getEmail() + "','" + sh.getEndereco() + "','" + sh.getTel() + "','" + sh.getCel() + "','" + sh.getDataNasc() + "','med')");
+            dt = new DataTable();
+            con = new ClasseConexao();
+            dt = con.executarSQL("Select max(idGeral) from tblGeral where tipo='med'");
+            string max = (dt.Rows[0][0]).ToString();
+            dt = new DataTable();
+            con = new ClasseConexao();
+            dt = con.executarSQL("insert into tblMedicos values('" + max + "', '" + txtEspec.Text + "', '" + txtCRM.Text + "','" + txtLinkCurr.Text + "')");
+            Response.Redirect("obrigado.aspx");
         }
     }
 }

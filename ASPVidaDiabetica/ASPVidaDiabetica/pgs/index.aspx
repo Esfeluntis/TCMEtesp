@@ -12,10 +12,16 @@
 
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <h2 id="TituloIndex">Seja bem-vindo(a) ao site da ONG Vida Diabética!</h2>
-        <p id="textoinicial">Você descobriu que está com diabetes. Não se apavore! Felizmente, hoje em dia a medicina avançou muito nessa área, 
-            de forma que você poderá ter uma boa qualidade de vida, mesmo com essa doença crônica. Só depende de você. É para 
-            isso que foi criada a ONG Vida Diabética! Esperamos poder lhe proporcionar assistência 
-            com relação a diabetes.</p>
-    </div>
+        <div id="textoinicial">
+        <p>Você descobriu que está com diabetes. Não se apavore!</p>
+         <p>Felizmente, hoje em dia a medicina avançou muito nessa área, 
+            de forma que você poderá ter uma boa qualidade de vida, mesmo com essa doença crônica.</p>
+         <p><strong>Só depende de você!</strong></p> 
+             <p>É para isso que foi criada a ONG Vida Diabética! Esperamos poder lhe proporcionar assistência 
+            com relação a diabetes!</p>
+            </div>
+        </div>
+        <img src="../img/mosaico.jpg" id="mosaicoindex" />
+    
 </asp:Content>
 

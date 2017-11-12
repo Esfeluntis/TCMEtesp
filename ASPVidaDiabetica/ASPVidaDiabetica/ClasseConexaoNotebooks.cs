@@ -40,7 +40,7 @@ public class ClasseConexao
             catch (Exception erro) { }
         }
 
-        public DataTable executa_sql(String comando_sql)
+        public DataTable executarSQL(String comando_sql)
         {
             try
             {

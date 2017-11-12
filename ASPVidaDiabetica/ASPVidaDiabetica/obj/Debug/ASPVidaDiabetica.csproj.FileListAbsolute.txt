@@ -31,3 +31,36 @@ C:\Users\marco\Documents\Visual Studio 2015\Projects\ASPVidaDiabetica\ASPVidaDia
 C:\Users\marco\Documents\Visual Studio 2015\Projects\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.dll
 C:\Users\marco\Documents\Visual Studio 2015\Projects\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.pdb
 C:\Users\marco\Documents\Visual Studio 2015\Projects\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.csprojResolveAssemblyReference.cache
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\ApplicationInsights.config
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\csc.exe
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\vbc.exe
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\VBCSCompiler.exe
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\ASPVidaDiabetica.dll.config
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\ASPVidaDiabetica.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\ASPVidaDiabetica.pdb
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.Web.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.Web.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.csprojResolveAssemblyReference.cache
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.dll
+C:\Users\marco\TCMEtesp\ASPVidaDiabetica\ASPVidaDiabetica\obj\Debug\ASPVidaDiabetica.pdb

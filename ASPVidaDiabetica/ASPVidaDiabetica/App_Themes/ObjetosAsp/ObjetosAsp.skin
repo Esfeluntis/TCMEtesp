@@ -1,1 +1,2 @@
 ﻿<asp:TextBox runat="server" BackColor="#F7E4BE" BorderStyle="none" SkinId="txtboxbonita" Height="24px"/>
+<asp:TextBox runat="server" BackColor="#F7E4BE" BorderStyle="none" SkinId="txtboxbonita2" Height="200px"/>
