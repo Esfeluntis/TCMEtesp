@@ -127,6 +127,7 @@
     <Content Include="img\Logo.png" />
     <Content Include="img\NomeONG.jpg" />
     <Content Include="pgs\index.aspx" />
+    <Content Include="pgs\RegistroGlicemia.aspx" />
     <Content Include="pgs\Sobre.aspx" />
     <Content Include="pgs\servicos.aspx" />
     <Content Include="Web.config" />
@@ -216,6 +217,13 @@
     </Compile>
     <Compile Include="pgs\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\RegistroGlicemia.aspx.cs">
+      <DependentUpon>RegistroGlicemia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\RegistroGlicemia.aspx.designer.cs">
+      <DependentUpon>RegistroGlicemia.aspx</DependentUpon>
     </Compile>
     <Compile Include="pgs\Sobre.aspx.cs">
       <DependentUpon>Sobre.aspx</DependentUpon>
