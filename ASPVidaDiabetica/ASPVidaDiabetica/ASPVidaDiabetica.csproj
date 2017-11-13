@@ -100,6 +100,7 @@
     <Content Include="img\inic1.jpg" />
     <Content Include="img\pesq1.jpg" />
     <Content Include="img\psic1.jpg" />
+    <Content Include="pgs\cadacesso.aspx" />
     <Content Include="pgs\Cadastro.aspx" />
     <Content Include="pgs\CadastroBeneficiado.aspx" />
     <Content Include="pgs\CadastroMedico.aspx" />
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="MasterPage2.Master.designer.cs">
       <DependentUpon>MasterPage2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\cadacesso.aspx.cs">
+      <DependentUpon>cadacesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\cadacesso.aspx.designer.cs">
+      <DependentUpon>cadacesso.aspx</DependentUpon>
     </Compile>
     <Compile Include="pgs\Cadastro.aspx.cs">
       <DependentUpon>Cadastro.aspx</DependentUpon>
