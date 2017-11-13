@@ -35,7 +35,11 @@ namespace ASPVidaDiabetica
 
             if (dt.Rows.Count > 0)
             {
-                Session["id_ben"] = (dt.Rows[0][1]).ToString();
+                string idgeral = dt.Rows[0][1].ToString();
+                dt = new DataTable();
+                con = new ClasseConexao();
+                dt = con.executarSQL("select * from tblBeneficiados where idGeral =" + idgeral);
+                Session["id_ben"] = (dt.Rows[0][0]).ToString();
                 Session["nome_logon"] = txtUser.Text;
                 Session["logon"] = "1";
                 Response.Redirect("Logado.aspx");

@@ -28,11 +28,18 @@ namespace ASPVidaDiabetica.pgs
             dt = new DataTable();
             con = new ClasseConexao();
             dt = con.executarSQL("Select max(idGeral) from tblGeral where tipo='ben'");
-            string max = (dt.Rows[0][0]).ToString();
+            Session["max"] = (dt.Rows[0][0]).ToString();
             dt = new DataTable();
             con = new ClasseConexao();
-            dt = con.executarSQL("insert into tblBeneficiados values('" + max + "', '" + rblTipoDiabetes.SelectedValue + "', '" + txtAnoDiag.Text + "','" + txtConve.Text + "','" + txtMed.Text + "','" + txtEndo.Text + "', 'Site')");
-            Response.Redirect("obrigado.aspx");
+            dt = con.executarSQL("insert into tblBeneficiados values('" + Session["max"].ToString() + "', '" + rblTipoDiabetes.SelectedValue + "', '" + txtAnoDiag.Text + "','" + txtConve.Text + "','" + txtMed.Text + "','" + txtEndo.Text + "', 'Site')");
+            dt = new DataTable();
+            con = new ClasseConexao();
+            dt = con.executarSQL("select max(idBeneficiado) from tblBeneficiados");
+            string id_ben = dt.Rows[0][0].ToString();
+            dt = new DataTable();
+            con = new ClasseConexao();
+            dt = con.executarSQL("insert into tblRegGlicemia (IDBENEFICIA, DATA) values (" + id_ben + ", " + "dateadd(day, -1, '" + DateTime.Now.ToShortDateString() + "'))");
+            Response.Redirect("cadacesso.aspx");
         }
     }
 }
