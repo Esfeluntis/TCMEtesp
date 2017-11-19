@@ -94,10 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\estilo4.css" />
+    <Content Include="css\estilo6.css" />
+    <Content Include="img\ass.jpg" />
     <Content Include="img\cul1.jpg" />
     <Content Include="img\estilo1.jpg" />
     <Content Include="img\inic1.jpg" />
+    <Content Include="img\Panfleto1.jpg" />
+    <Content Include="img\Panfleto2.jpg" />
     <Content Include="img\pesq1.jpg" />
     <Content Include="img\psic1.jpg" />
     <Content Include="pgs\cadacesso.aspx" />
@@ -106,6 +109,7 @@
     <Content Include="pgs\CadastroMedico.aspx" />
     <Content Include="pgs\CadastroVoluntario.aspx" />
     <Content Include="pgs\Contato.aspx" />
+    <Content Include="pgs\Eventos.aspx" />
     <Content Include="pgs\InicioCadastro.aspx" />
     <Content Include="pgs\Logado.aspx" />
     <Content Include="pgs\Login.aspx" />
@@ -183,6 +187,13 @@
     </Compile>
     <Compile Include="pgs\Contato.aspx.designer.cs">
       <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\Eventos.aspx.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\Eventos.aspx.designer.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
     </Compile>
     <Compile Include="pgs\InicioCadastro.aspx.cs">
       <DependentUpon>InicioCadastro.aspx</DependentUpon>

@@ -21,7 +21,9 @@
             com relação a diabetes!</p>
             </div>
         </div>
-        <img src="../img/mosaico.jpg" id="mosaicoindex" />
+        <img id="ass" src="../img/ass.jpg" />
+    <div id="Marco">Marco Aurélio C. O. Prado - Fundadro da ONG Vida Diabética</div>
+    <br/><br/>
     
 </asp:Content>
 

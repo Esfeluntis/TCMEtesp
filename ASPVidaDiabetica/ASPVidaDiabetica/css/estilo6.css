@@ -33,7 +33,7 @@ body{
 
 #cadastro{
     position:relative;
-    top:118px;
+    top:90px;
     width:439px;
     margin:0 auto;
     left: 11px;
@@ -87,14 +87,14 @@ body{
 #imgs1{
     width:300px;
     float:right;
-    margin-right:10px;
+    margin-right:20px;
 }
 
 #textos1{
     width: 350px;
     margin-top: 40px;
     float:left;
-    margin-left:15px;
+    margin-left:20px;
 }
 
 #s2{
@@ -108,31 +108,92 @@ body{
 
 #imgs2{
     float:left;
-    margin-left:10px;
+    margin-left:20px;
     width:300px;
 }
 
-textos2{
-    width: 150px;
-    margin-right:15px;
+#textos2{
+    width: 350px;
+    margin-top: 30px;
     float:right;
+    margin-right:20px;
 }
 
 #s3{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
 
+#imgs3{
+    float: right;
+    margin-right:25px;
+    width:300px;
+}
+
+#textos3{
+    width: 350px;
+    margin-top: 60px;
+    float:left;
+    margin-left:30px;
 }
 
 #s4{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
 
+#imgs4{
+    float:left;
+    margin-left:20px;
+    width:300px;
+}
+
+#textos4{
+    width: 350px;
+    margin-top: 25px;
+    float:right;
+    margin-right:20px;
 }
 
 #s5{
+    width: 720px;
+    margin-top: 15px;
+    background: #FFF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align:justify;
+}
 
+#imgs5{
+    float: right;
+    margin-right:20px;
+    width:300px;
+    margin-bottom:15px;
+}
+
+#textos5{
+    width: 350px;
+    margin-top: 75px;
+    float:left;
+    margin-left:25px;
+}
+
+h3{
+    text-align:center;
 }
 
 #textoServicos{
-    width: 720px;
+    width: 650px;
     margin-top: 15px;
+    margin-left:40px;
     background: #FFF ;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -161,10 +222,30 @@ ul li{
     font-size:25px;
 }
 
-#mosaicoindex{
-    width:720px;
-    margin: 50px auto 0 auto;
+#ass{
+    width:250px;
+    height:110px;
+    margin-left:240px;
+    margin-bottom: 15px;
 }
+
+#Marco{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:smaller;
+}
+
+#panf1{
+    float:left;
+    width:70%;
+    margin-left:109px;
+}
+
+/*#panf2{
+    float:right;
+    width:50%;
+    margin-right:50px;
+}*/
 
 #textoinicial{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -210,7 +291,7 @@ footer{
 #login{
     width:190px;
     position:relative;
-    top:100px;
+    top:75px;
     left: 220px;
     z-index:10;
 }

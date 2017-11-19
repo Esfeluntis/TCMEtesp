@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>ONG Vida Diabética</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo4.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo6.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script type="text/javascript">
