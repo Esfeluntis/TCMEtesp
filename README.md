@@ -1,4 +1,4 @@
-﻿# TCMEtesp
+﻿# TCM Etesp - ONG Vida Diabética
 Projeto de conclusão de módulo do curso técnico de informática
 
 Desenvolvido por:
