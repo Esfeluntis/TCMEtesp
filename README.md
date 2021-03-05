@@ -1,18 +1,19 @@
 ﻿# TCMEtesp
-Projeto de conclusão de módulo do curso de informática
+Projeto de conclusão de módulo do curso técnico de informática
 
 Desenvolvido por:
-Gabriel Viniciuz Oliveira
 
-Marco Aurélio Prado
+- Gabriel Viniciuz Oliveira
 
-Mateus Simões Britto
+- Marco Aurélio Prado
 
-Thaís Harumi Shinkai
+- Mateus Simões Britto
 
-Tiago Correia Lima
+- Thaís Harumi Shinkai
 
-Victor Lagonegro
+- Tiago Correia Lima
+
+- Victor Lagonegro
 
 2º A INFO - 2017 - Escola Técnica de São Paulo
 
